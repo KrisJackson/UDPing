@@ -1,5 +1,5 @@
 # UDP Echo Client / Server
-***README for this project has been updated to fit the format of this repo. The original version was created by the Computer Science department at Rhodes College and is used a programming assignment for COMP 315.***
+***README for this project has been updated to fit the format of this repo. The original version was created by the Computer Science department at Rhodes College and is used as a programming assignment for COMP 315.***
 
 In this project contains two C programs that use the User Datagram Protocol (UDP) to act as a network echo client and server pair.
 
