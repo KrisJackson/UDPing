@@ -31,7 +31,7 @@ Loop for ping packets does the following:
 2. adds 1 to every element in the array
 3. sends the array back in a UDP packet to the ping client
 
-### Sample Output
+## Sample Output
 Server run in one window:
 ```
 $ ./pong -n 10 -p 8000
