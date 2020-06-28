@@ -7,8 +7,8 @@ This project contains two C programs that uses User Datagram Protocol (UDP) to a
 
 More specifically, the program:
 * creates a char array of N elements, where N may be specified as a command-line option. 
-* uses getaddrinfo() to get the IP address, port number, etc. of the pong server (using IPv4 for network protocols)
-* calls socket() using the information returned from getaddrinfo()
+* uses `getaddrinfo()` to get the IP address, port number, etc. of the pong server (using IPv4 for network protocols)
+* calls `socket()` using the information returned from `getaddrinfo()`
 * loops over the number of ping packets to be sent.
 * computes the total and average times spent communicating
 
@@ -21,9 +21,9 @@ Loop for ping packets does the following:
 **Pong Program (server)**: After startup, the program listens for UDP ping packets from the client program. Once the packet has been received, it modifies the values slightly and sends back the new array.
 
 More specifically, the program:
-* uses getaddrinfo() to get the information needed to create an IPv4 UDP server socket to listen on any available address on a port number (specified through the command line).
-* calls socket() using the information returned from getaddrinfo().
-* calls bind() to have the socket listen for incoming packets
+* uses `getaddrinfo()` to get the information needed to create an IPv4 UDP server socket to listen on any available address on a port number (specified through the command line).
+* calls `socket()` using the information returned from `getaddrinfo()`.
+* calls `bind()` to have the socket listen for incoming packets
 * loops over the number of ping packets received.
 
 Loop for ping packets does the following:
