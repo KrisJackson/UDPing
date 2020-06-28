@@ -1,4 +1,5 @@
 # UDP Echo Client / Server
+***This project was assigned in my Computer Networking course, and this README was originally created by the Computer Science department at Rhodes College. Parts of this README has been edited to fit the format of this repo. Files in this repo contain my code, and should not be used or copied for any reason other than to assess my programming skills.***
 
 This project contains two C programs that uses User Datagram Protocol (UDP) to act as a network echo client and server pair.
 
@@ -62,4 +63,3 @@ no errors detected
 time to send 10 packets of 100 bytes 0.667 ms (0.067 avg per packet)
 ```
 
-***This project was assigned in my Computer Networking course, and this README was originally created by the Computer Science department at Rhodes College. Parts of this README has been edited to fit the format of this repo. Files in this repo contain my code, and should not be used or copied for any reason other than to assess my programming skills.***
