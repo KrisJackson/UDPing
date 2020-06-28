@@ -49,16 +49,16 @@ pong[9]: received packet from 127.0.0.
 And the client in another window:
 ```
 $ ./ping -h localhost -p 8000 -n 10
-ping[0] : round-trip time: 0.131 ms
-ping[1] : round-trip time: 0.123 ms
-ping[2] : round-trip time: 0.070 ms
-ping[3] : round-trip time: 0.060 ms
-ping[4] : round-trip time: 0.048 ms
-ping[5] : round-trip time: 0.053 ms
-ping[6] : round-trip time: 0.040 ms
-ping[7] : round-trip time: 0.049 ms
-ping[8] : round-trip time: 0.040 ms
-ping[9] : round-trip time: 0.053 ms
+ping[0]: round-trip time: 0.131 ms
+ping[1]: round-trip time: 0.123 ms
+ping[2]: round-trip time: 0.070 ms
+ping[3]: round-trip time: 0.060 ms
+ping[4]: round-trip time: 0.048 ms
+ping[5]: round-trip time: 0.053 ms
+ping[6]: round-trip time: 0.040 ms
+ping[7]: round-trip time: 0.049 ms
+ping[8]: round-trip time: 0.040 ms
+ping[9]: round-trip time: 0.053 ms
 no errors detected
 time to send 10 packets of 100 bytes 0.667 ms (0.067 avg per packet)
 ```
