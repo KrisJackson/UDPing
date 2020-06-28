@@ -1,12 +1,12 @@
 # UDP Echo Client / Server
-***README for this project has been updated to fit the format of this repo. The original version was created by the Computer Science department at Rhodes College and is used as a programming assignment for COMP 315.***
+***README for this project has been updated to fit the format of this repo. The original version was created by the Computer Science department at Rhodes College for the COMP 315 Computer Networking course.***
 
-In this project contains two C programs that use the User Datagram Protocol (UDP) to act as a network echo client and server pair.
+This project contains two C programs that uses User Datagram Protocol (UDP) to act as a network echo client and server pair.
 
-**Ping Program (client)**: This program will creates an array, sends it using UDP to the Pong server, and waits to receive a modified version of the array from the server. After the communication has completed, the program prints the elapsed time for the communication round trip.
+**Ping Program (client)**: This program creates an array, sends it using UDP to the Pong server, and waits to receive a modified version of the array from the server. After the communication has completed, the program prints the elapsed time for the communication round trip.
 
 More specifically, the program:
-* creates an char array of N elements, where N may be specified as a command-line option. 
+* creates a char array of N elements, where N may be specified as a command-line option. 
 * uses getaddrinfo() to get the IP address, port number, etc. of the pong server (using IPv4 for network protocols)
 * calls socket() using the information returned from getaddrinfo()
 * loops over the number of ping packets to be sent.
@@ -14,7 +14,7 @@ More specifically, the program:
 
 Loop for ping packets does the following:
 1. sends the array elements in a single packet to the pong server
-2. waits and receives the reply from the pong server
+2. waits to receive the reply from the pong server
 3. validate the results sent from the pong server
 4. prints out the round-trip time
 
